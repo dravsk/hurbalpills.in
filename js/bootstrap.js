@@ -22,6 +22,20 @@
       Object.defineProperty(target, descriptor.key, descriptor);
     }
   }
+  function sendEmail() {
+    console.log("sendEmail");
+//     var emailSendTo = "admin@herbalpills.in";
+// 
+//     body += email ? "\nEmail: " + email : "";
+//     body += phone ? "\nPhone: " + phone : "";
+//     
+//     var mailtoLink = "mailto:" + emailSendTo + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+//     window.location.href = mailtoLink;
+  }
+  function submitForm() {
+    var form = document.getElementById("form");
+    form.submit();
+  }
 
   function _createClass(Constructor, protoProps, staticProps) {
     if (protoProps) _defineProperties(Constructor.prototype, protoProps);

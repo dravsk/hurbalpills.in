@@ -38,7 +38,7 @@
           <a class="navbar-brand" href="index.html">
             <img src="images/logo.png" alt="" />
             <span>
-              Medi
+              Herbal Pills Remedies
             </span>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -87,21 +87,21 @@
         </div>
         <form action="">
           <div>
-            <input type="text" placeholder="Name" />
+            <input type="text" placeholder="Name" id="name" />
           </div>
           <div>
-            <input type="email" placeholder="Email" />
+            <input type="email" placeholder="Email" id="email" />
           </div>
           <div>
-            <input type="text" placeholder="Pone Number" />
+            <input type="text" placeholder="Phone Number" id="phone" />
           </div>
           <div>
-            <input type="text" class="message-box" placeholder="Message" />
+            <input type="text" class="message-box" placeholder="Message" id="message" />
           </div>
           <div class="d-flex justify-content-center mt-4 ">
-            <button>
-              SEND
-            </button>
+            <div class="d-flex justify-content-center mt-4 ">
+              <button type="submit" onclick="sendEmail()">Send Email</button>
+            </div>
           </div>
         </form>
       </div>
